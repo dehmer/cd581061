@@ -1,0 +1,33 @@
+{
+  "id": "cd581061-414d-44de-b34b-29b91efe6a12",
+  "name": "solid-webpack",
+  "version": "0.0.0",
+  "description": "Solid/Webpack Template",
+  "keywords": [
+    "solid",
+    "webpack"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "serve": "webpack serve --static public"
+  },
+  "author": "horst.dehmer@syncpoint.io",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "babel-preset-solid": "^1.7.4",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.5"
+  }
+}
